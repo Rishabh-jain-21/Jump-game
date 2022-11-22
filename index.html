@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Jumper</title>
+    <link rel="icon" href="Images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="gameOver">GAME OVER !! <br>
+        <button id="restart" onclick="location.reload()">Restart</button>
+    </div>
+    <audio id="gameOverSound" src="Sounds/Game-over.mp3"></audio>
+    <div class="gameContainer">
+        <div id="score">Your Score : <p1 class="newScore">0</p1>
+        </div>
+        <div class="jumper"></div>
+        <div class="obstacle animateObstacle"></div>
+    </div>
+    <div class="path">
+
+    </div>
+</body>
+
+</html>
